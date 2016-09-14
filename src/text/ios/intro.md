@@ -1,3 +1,3 @@
-# Raspberry Pi
+# iOS
 
-![Raspberry Pi](static/img/gadget/rpi.png)
+![iOS](static/img/gadget/ios.png)
