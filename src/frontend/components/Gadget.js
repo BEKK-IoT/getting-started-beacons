@@ -5,6 +5,19 @@ import InstallScript from './InstallScript';
 import PhotonAccessToken from './PhotonAccessToken';
 import { GADGETS, GENERAL_TASKS } from '../constants/AppConstants';
 
+const SetupBlock = React.createClass({
+  render() {
+    return <div>
+              <div>
+                <Article article='setup' />
+              </div>
+              <div>
+                <Article article='run' />
+              </div>
+           </div>
+  }
+})
+
 module.exports = React.createClass({
     render() {
         const intro = this.props.params.gadget + '/intro';
@@ -12,7 +25,14 @@ module.exports = React.createClass({
         const five = this.props.params.gadget + '/johnny-five';
         const example = this.props.params.gadget + '/example';
         const gadgetTasks = GADGETS[this.props.params.gadget].tasks.concat(GENERAL_TASKS);
+        const setup = GADGETS[this.props.params.gadget].setup;
         const getToken = this.props.params.gadget === 'photon' ? <PhotonAccessToken/> : null;
+        let setupBlock;
+        if(setup) {
+          setupBlock = <SetupBlock />
+        }
+
+
         return (
             <div className="gadget">
                 <div>
@@ -23,12 +43,7 @@ module.exports = React.createClass({
                     <InstallScript gadget={this.props.params.gadget} />
                     {getToken}
                 </div>
-                <div>
-                    <Article article='setup' />
-                </div>
-                <div>
-                    <Article article='run' />
-                </div>
+                {setupBlock}
                 <div>
                     <h2>Tasks</h2>
                     <Tasks tasks={gadgetTasks} />

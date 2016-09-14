@@ -2,6 +2,7 @@ const AppConstants = {
     GET_ARTICLE: 'GET_ARTICLE',
     GADGETS: {
     	datamaskin : {
+        setup: true,
     		name: 'Datamaskin',
     		url: 'https://github.com/BEKK-IoT/arduino-uno',
     		git: 'https://github.com/BEKK-IoT/arduino-uno.git',
@@ -12,6 +13,7 @@ const AppConstants = {
 				}]
     	},
     	android : {
+        setup: true,
     		name: 'Android',
     		url: 'https://github.com/BEKK-IoT/photon',
     		git: 'https://github.com/BEKK-IoT/photon.git',
@@ -23,6 +25,7 @@ const AppConstants = {
 			  ]
     	},
       ios : {
+        setup: false,
     		name: 'iOS',
     		url: 'https://github.com/BEKK-IoT/arduino-uno',
     		git: 'https://github.com/BEKK-IoT/arduino-uno.git',
