@@ -1,0 +1,83 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+h1, h2 {
+	color: #ffffff;
+}
+.red {
+	color: #df565b;
+}
+.feedback {
+	margin-top:30px;
+	text-decoration: underline;
+}
+.app-wrapper {
+	width: 700px;
+	margin: auto;
+}
+.app-content {
+	padding-bottom: 40px;
+}
+.gadget img {
+	max-width: 300px;
+	-webkit-filter:grayscale(55%);
+}
+.gadget  > div {
+	padding-bottom: 40px;
+}
+pre {
+	background-color: #1b1b1b;
+	padding: 10px;
+	font-size: 15px;
+}
+code {
+	font-size: 16px;
+	line-height: 1.35;
+}
+p > code {
+	color: #eee;
+}
+.export-token {
+    font-family: monospace;
+    color: #cc9393;
+}
+.token-form {
+	margin-top: 20px;
+	padding: 20px 20px 40px 20px;
+	width: 100%;
+	background-color: #000000;
+}
+.token-form-header {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-family: "Conduit ITC W01 Regular", Arial, sans-serif;
+    margin-bottom: 10px;
+    color: #ebebeb;
+}
+input[type="search"] {
+	background-color: transparent;
+    border: none;
+    font-family: "Conduit ITC W01 Regular", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 0.012em;
+    width: 100%;
+    float: left;
+    color: white;
+    -webkit-transition: border 0.3s ease-out;
+    transition: border 0.3s ease-out;
+    border-bottom: 1px solid #515151;
+    margin-bottom: 20px;
+}
+
+.export-token-content{
+	padding-top: 10px;
+}
+
+img{
+	max-height: 500px;
+	max-width: 700px;
+}
+td {
+	padding-right: 30px;
+}
