@@ -8,6 +8,9 @@ const AppConstants = {
     		git: 'https://github.com/BEKK-IoT/arduino-uno.git',
     		tasks: [
 				{
+					path: 'datamaskin/fakebeacon',
+					name: 'Datamaskin: Faking a beacon'
+				},{
 					path: 'datamaskin/ifttt',
 					name: 'Datamaskin: If this than that'
 				}]
