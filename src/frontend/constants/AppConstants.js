@@ -13,7 +13,10 @@ const AppConstants = {
 				},{
 					path: 'datamaskin/ifttt',
 					name: 'Datamaskin: If this than that'
-				}]
+				},{
+          path: 'datamaskin/beaconscanner',
+          name: 'Beacon scanner'
+        }]
     	},
     	android : {
         setup: true,
