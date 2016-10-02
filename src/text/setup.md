@@ -1,30 +1,7 @@
 ## Getting familiar with the libraries
 
-We are using two libraries, Johnny-five and Firebase.
-Johnny-five is an abstraction that makes it easy for us to write programs for micro-controllers.
+
 Firebase is a cloud-database with a very neat API that makes it easy to share and store data.
-
-### Johnny-Five
-[Johnny-Five](http://johnny-five.io/api/) is a JavaScript Robotics programming framework.
-It allows us to control a bunch of different micro-controllers with JavaScript.
-
-In the following code example we use Johnny-five to interact with a LED.
-
-```js
-// Import the Johnny-five library
-import { five } from 'devices-core';
-
-// Create a representation of the micro-controller board
-const board = new five.Board();
-
-// Wait for the board to get ready before we do anything
-board.on("ready", function() {
-  // Tell johnny-five that we have a LED connected on port 11
-  const led = new five.Led(11);
-  // Interact with the LED
-  led.blink(500);
-});
-```
 
 
 ### Firebase

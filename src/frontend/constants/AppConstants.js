@@ -11,11 +11,14 @@ const AppConstants = {
 					path: 'datamaskin/fakebeacon',
 					name: 'Datamaskin: Faking a beacon'
 				},{
-					path: 'datamaskin/ifttt',
-					name: 'Datamaskin: If this than that'
-				},{
           path: 'datamaskin/beaconscanner',
-          name: 'Beacon scanner'
+          name: 'Datamaskin: Beacon scanner'
+        },{
+					path: 'datamaskin/hotandcold',
+					name: 'Datamaskin: Hot and cold'
+				},{
+          path: 'datamaskin/ifttt',
+					name: 'Datamaskin: If this than that'
         }]
     	},
     	android : {
