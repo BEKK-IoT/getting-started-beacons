@@ -29,6 +29,9 @@ const AppConstants = {
     },{
       path: 'ifttt',
       name: 'Task4: If this than that'
+    },{
+      path: 'colormixer',
+      name: 'Task5: Mixing colors'
     }]
 };
 
