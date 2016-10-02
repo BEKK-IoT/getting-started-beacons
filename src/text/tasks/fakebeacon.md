@@ -23,24 +23,4 @@ We can emulate beacons with our computer or mobile phones. We can do that with t
 
 ` `
 
-## Create beacon
-
-```
-var uuid = 'e2c56db5dffb48d2b060d0f5a71096e0';
-var major = 0; // 0 - 65535
-var minor = 0; // 0 - 65535
-var measuredPower = -59; //  (measured RSSI at 1 meter)
-
-Beacon.startAdvertising(uuid, major, minor, measuredPower);
-
-```
-
-## Stop beacon
-
-```
-Beacon.stopAdvertising();
-```
-
-### Task
-
 Create a fake beacon. Validate with a phone app (exampler: estimote) or your own beacon scanner.
