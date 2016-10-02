@@ -6,35 +6,30 @@ const AppConstants = {
     		name: 'Node - Computer',
     		url: 'https://github.com/BEKK-IoT/arduino-uno',
     		git: 'https://github.com/BEKK-IoT/arduino-uno.git',
-    		tasks: [
-				{
-					path: 'datamaskin/fakebeacon',
-					name: 'Datamaskin: Faking a beacon'
-				},{
-          path: 'datamaskin/beaconscanner',
-          name: 'Datamaskin: Beacon scanner'
-        },{
-					path: 'datamaskin/hotandcold',
-					name: 'Datamaskin: Hot and cold'
-				},{
-          path: 'datamaskin/ifttt',
-					name: 'Datamaskin: If this than that'
-        }]
+    		tasks: []
     	},
     	cordova : {
         setup: true,
     		name: 'Cordova - Mobile',
     		url: 'https://github.com/BEKK-IoT/photon',
     		git: 'https://github.com/BEKK-IoT/photon.git',
-    		tasks: [
-				{
-					path: 'android/task1',
-					name: 'android: finn på'
-				}
-			  ]
+    		tasks: []
     	},
     },
-    GENERAL_TASKS: []
+    GENERAL_TASKS: [
+    {
+      path: 'fakebeacon',
+      name: 'Faking a beacon'
+    },{
+      path: 'beaconscanner',
+      name: 'Beacon scanner'
+    },{
+      path: 'hotandcold',
+      name: 'Hot and cold'
+    },{
+      path: 'ifttt',
+      name: 'If this than that'
+    }]
 };
 
 module.exports = AppConstants;
