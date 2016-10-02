@@ -24,14 +24,29 @@ const AppConstants = {
       path: 'beaconscanner',
       name: 'Task2: Beacon scanner'
     },{
-      path: 'hotandcold',
-      name: 'Task3: Hot and cold'
+      path: 'findabeacon',
+      name: 'Task3: Find a beacon'
     },{
-      path: 'ifttt',
-      name: 'Task4: If this than that'
+      path: 'hotandcold',
+      name: 'Task4: Hot and cold'
     },{
       path: 'colormixer',
       name: 'Task5: Mixing colors'
+    },{
+      path: 'ifttt',
+      name: 'Task6: If this than that'
+    },{
+      path: 'telemetry',
+      name: 'Task6: Read sensor data'
+    },{
+      path: 'pair',
+      name: 'Task7: Connect to a beacon ? check if works'
+    },{
+      path: 'gpio',
+      name: 'Task8: Maybe  gpio ???? TODO'
+    },{
+      path: 'arduino',
+      name: 'Task8: Maybe  arduino ???? TODO'
     }]
 };
 
