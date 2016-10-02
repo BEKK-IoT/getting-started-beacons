@@ -1,6 +1,6 @@
 # Hot and cold
 
-One usecase for beacons is treasure hunting.
+One usecase for beacons is treasure hunting. Treasure hunting may include application for finding
 
 
 
@@ -8,4 +8,4 @@ One usecase for beacons is treasure hunting.
 
 ## Task
 
-Make an application that tells you when you get closer to a beacon and when you get further away. 
+Make an application that tells you when you get closer to a beacon and when you get further away.
