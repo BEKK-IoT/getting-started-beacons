@@ -27,6 +27,9 @@ const AppConstants = {
       path: 'findabeacon',
       name: 'Task3: Find a beacon'
     },{
+      path: 'monitoring',
+      name: 'Task4: Monitoring a beacon region'
+    },{
       path: 'hotandcold',
       name: 'Task4: Hot and cold'
     },{
