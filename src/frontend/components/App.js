@@ -30,9 +30,8 @@ module.exports = React.createClass({
                 </div>
                 <div>
                     <h1>Tasks</h1>
-                    <Tasks tasks={GADGETS['datamaskin'].tasks} /><br/>
-                    <Tasks tasks={GADGETS['android'].tasks} /><br/>
-                    <Tasks tasks={GADGETS['ios'].tasks} /><br/>
+                    <Tasks tasks={GADGETS['node'].tasks} /><br/>
+                    <Tasks tasks={GADGETS['cordova'].tasks} /><br/>
                 </div>
             </div>
         )

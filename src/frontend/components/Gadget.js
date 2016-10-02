@@ -2,7 +2,6 @@ import React from 'react';
 import Article from './Article';
 import Tasks from './Tasks';
 import InstallScript from './InstallScript';
-import PhotonAccessToken from './PhotonAccessToken';
 import { GADGETS, GENERAL_TASKS } from '../constants/AppConstants';
 
 const SetupBlock = React.createClass({
@@ -26,7 +25,6 @@ module.exports = React.createClass({
         const example = this.props.params.gadget + '/example';
         const gadgetTasks = GADGETS[this.props.params.gadget].tasks.concat(GENERAL_TASKS);
         const setup = GADGETS[this.props.params.gadget].setup;
-        const getToken = this.props.params.gadget === 'photon' ? <PhotonAccessToken/> : null;
         let setupBlock;
         if(setup) {
           setupBlock = <SetupBlock />
@@ -41,7 +39,6 @@ module.exports = React.createClass({
                 <div>
                     <Article article={install}/>
                     <InstallScript gadget={this.props.params.gadget} />
-                    {getToken}
                 </div>
                 {setupBlock}
                 <div>

@@ -1,9 +1,9 @@
 const AppConstants = {
     GET_ARTICLE: 'GET_ARTICLE',
     GADGETS: {
-    	datamaskin : {
+    	node : {
         setup: true,
-    		name: 'Datamaskin',
+    		name: 'Node - Computer',
     		url: 'https://github.com/BEKK-IoT/arduino-uno',
     		git: 'https://github.com/BEKK-IoT/arduino-uno.git',
     		tasks: [
@@ -21,9 +21,9 @@ const AppConstants = {
 					name: 'Datamaskin: If this than that'
         }]
     	},
-    	android : {
+    	cordova : {
         setup: true,
-    		name: 'Android',
+    		name: 'Cordova - Mobile',
     		url: 'https://github.com/BEKK-IoT/photon',
     		git: 'https://github.com/BEKK-IoT/photon.git',
     		tasks: [
@@ -32,17 +32,6 @@ const AppConstants = {
 					name: 'android: finn på'
 				}
 			  ]
-    	},
-      ios : {
-        setup: false,
-    		name: 'iOS',
-    		url: 'https://github.com/BEKK-IoT/arduino-uno',
-    		git: 'https://github.com/BEKK-IoT/arduino-uno.git',
-    		tasks: [
-				{
-					path: 'ios/task1',
-					name: 'ios: finn på'
-				}]
     	},
     },
     GENERAL_TASKS: []
