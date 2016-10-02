@@ -19,16 +19,16 @@ const AppConstants = {
     GENERAL_TASKS: [
     {
       path: 'fakebeacon',
-      name: 'Faking a beacon'
+      name: 'Task1: Faking a beacon'
     },{
       path: 'beaconscanner',
-      name: 'Beacon scanner'
+      name: 'Task2: Beacon scanner'
     },{
       path: 'hotandcold',
-      name: 'Hot and cold'
+      name: 'Task3: Hot and cold'
     },{
       path: 'ifttt',
-      name: 'If this than that'
+      name: 'Task4: If this than that'
     }]
 };
 
