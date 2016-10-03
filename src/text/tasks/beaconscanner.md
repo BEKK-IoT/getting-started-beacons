@@ -1,6 +1,6 @@
 # Beacon scanner
 
-Now, we are going to listen to all the beacons in the room. The Beacon module includes a parser which parses Estimote iBeacons and telemetry data.
+Now, we are going to listen to all the beacons in the room. The Beacon module includes a parser which parses Estimote iBeacons.
 
 ` `
 
