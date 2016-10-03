@@ -24,11 +24,8 @@ const AppConstants = {
       path: 'beaconscanner',
       name: 'Task2: Beacon scanner'
     },{
-      path: 'findabeacon',
-      name: 'Task3: Find a beacon'
-    },{
       path: 'monitoring',
-      name: 'Task4: Monitoring a beacon region'
+      name: 'Task3: Monitoring a beacon region'
     },{
       path: 'hotandcold',
       name: 'Task4: Hot and cold'
@@ -40,13 +37,7 @@ const AppConstants = {
       name: 'Task6: If this than that'
     },{
       path: 'telemetry',
-      name: 'Task6: Read sensor data'
-    },{
-      path: 'pair',
-      name: 'Task7: Connect to a beacon ? check if works'
-    },{
-      path: 'gpio',
-      name: 'Task8: Maybe  gpio ???? TODO'
+      name: 'Task7: Read sensor data'
     },{
       path: 'arduino',
       name: 'Task8: Maybe  arduino ???? TODO'
