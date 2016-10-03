@@ -11,8 +11,8 @@ const AppConstants = {
     	cordova : {
         setup: true,
     		name: 'Cordova - Mobile',
-    		url: 'https://github.com/BEKK-IoT/photon',
-    		git: 'https://github.com/BEKK-IoT/photon.git',
+        url: 'https://github.com/BEKK-IoT/beacon-cordova',
+    		git: 'https://github.com/BEKK-IoT/beacon-cordova.git',
     		tasks: []
     	},
     },
