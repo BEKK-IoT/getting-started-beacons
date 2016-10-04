@@ -1,5 +1,0 @@
-## Beacons
-
-### Eddystone
-
-### Estimote
