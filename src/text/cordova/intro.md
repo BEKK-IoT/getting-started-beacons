@@ -195,3 +195,38 @@ cordova.plugins.notification.local.schedule({
   text: 'description'
 });
 ```
+
+## Firebase
+
+[Firebase](https://www.firebase.com/docs/) is a realtime cloud database which allows you to store and synchronize data.
+
+
+In the following code example we use Firebase to send and receive events.
+
+``` js
+// Import the Firebase library
+import { firebase } from 'devices-core';
+
+// Register your team name on firebase
+const fb = new firebase('team-unicorns');
+
+// Send an event from your team to firebase,
+// the event name is 'greet' and the content is 'msg: world'
+fb.send('greet', {msg: 'world'});
+
+// Listen for your teams greet event and log the msg
+fb.on('greet', `users/team-unicorns`, function(event) {
+  console.log(`Hello, ${event.msg}!`);
+});
+```
+
+` `
+
+Register beacon with firebase:
+
+``` js
+// Listen for your teams greet event and log the msg
+fb.foundBeacon( {
+  minor : 1234,
+  proximity : near
+});
