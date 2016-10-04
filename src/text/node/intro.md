@@ -60,7 +60,7 @@ Beacon.stopAdvertising();
 
 ` `
 
-#### Start scanning
+#### Start scanning (Ranging)
 
 ` `
 
@@ -92,7 +92,7 @@ Beacon.startScanning(uuid, major, minor);
 
 ` `
 
-#### Stop scanning
+#### Stop scanning (Ranging)
 
 ` `
 
