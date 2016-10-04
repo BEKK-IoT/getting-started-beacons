@@ -1,6 +1,6 @@
-# Faking a Beacon.
+# Faking a iBeacon.
 
-We can emulate beacons with our computer or mobile phones. We can do that with the Beacon module. You have to send 4 parameters:
+We can emulate beacons with our computer or mobile phones.  You have to send 4 parameters:
 
 ` `
 
@@ -10,8 +10,8 @@ We can emulate beacons with our computer or mobile phones. We can do that with t
 
 ` `
 
-| Hexadecimal value 	| TX Power level  |	Decimal value  |	RSSI @ 1 metre   |	Range (metres)  |
-| ----------------- |:--------------:| :-------------:| :--------------:| --------------:|
+| Hexadecimal value  -   | TX Power level  -    |	Decimal value -    |	RSSI @ 1 metre -   |	Range (metres)  |
+| :---------------- |:--------------:| :-------------:| :--------------:| --------------:|
 | e2	| 0	| -30 dBm	| -115 dBm |	2 |
 | ec	| 1 |	-20 dBm |	-84 dBm |	4 |
 | f0  | 2 |	-16 dBm |	-81 dBm |	10 |
@@ -23,4 +23,6 @@ We can emulate beacons with our computer or mobile phones. We can do that with t
 
 ` `
 
-Create a fake beacon. Validate with a phone app (exampler: estimote) or your own beacon scanner.
+## Task
+
+Create a fake iBeacon. Validate with a phone app (example: estimote) or your own beacon scanner.

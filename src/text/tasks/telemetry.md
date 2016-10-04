@@ -34,18 +34,10 @@ Packest from the Estimote family (Telemetry, Connectivity, etc.) are broadcast a
 
 ## Tasks
 
-### Task 1
+- Read sensors data from telemetry package.
 
-Read sensors data from telemetry package.
+- Send temperature data to firebase
 
-### Task 2
+- Use light sensor data to on the light using firebase or ifttt
 
-Send temperature data to firebase
-
-### Task 3
-
-Use light sensor data to on the light using firebase or ifttt
-
-### Task 4
-
-Check if the beacons is in motion. (Do something)
+- Check if the beacons is in motion. (Do something)
