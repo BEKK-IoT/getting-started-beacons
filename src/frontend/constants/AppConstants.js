@@ -30,11 +30,11 @@ const AppConstants = {
       path: 'hotandcold',
       name: 'Task4: Hot and cold'
     },{
-      path: 'colormixer - Cordova only',
-      name: 'Task5: Mixing colors'
+      path: 'colormixer',
+      name: 'Task5: Mixing colors - Cordova only'
     },{
       path: 'telemetry',
-      name: 'Task6: Read sensor data'
+      name: 'Task6: Read sensor data - Node only'
     },{
       path: 'ifttt',
       name: 'Task7: If this than that'

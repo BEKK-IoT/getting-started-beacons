@@ -12,8 +12,10 @@ either an "enter" or "exit" actions when the device enters or leaves the differe
 ## Tasks:
   1. Monitor a specific beacon region. Pick a single beacon to monitor. Log the
   different actions to the console.
+
   2. Add a mobile notifications to your monitor app. Can you get a notification when
   you enter the region and remove it when you leave ? Can you only show notification when the
   application is running in the background?
+
   3. Use the monitor event for something useful. Light the lamp when in entering the region
   and turn it off when leaving.

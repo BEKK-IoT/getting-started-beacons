@@ -136,7 +136,7 @@ Bleacon.on('telemetrydata', function(telemetrydata) {
 
 
   /*
-    Due limited size on package, telemetry data is seperated
+    Due limited size on package, telemetry data is separated
     in two packages. Package A and Package B.
   */
 

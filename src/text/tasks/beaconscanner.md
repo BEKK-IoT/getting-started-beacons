@@ -10,7 +10,9 @@ It's time to interact with the beacons in the room.
 Some of these tasks can be done in both Node and Cordova
 
   1. Start Ranging for beacons. Log the found beacons to the console.
+
   2. Only Range for one particular beacon.
+
   3. __Cordova:__ Show the found beacons in the mobile view, not only in the console.
 
 ` `
