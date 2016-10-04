@@ -15,4 +15,4 @@ different actions when the app enters or leaves the different beacon regions.
   2. Add a mobile notifications to your monitor app. Can you get a notification when
   you enter the region and remove it when you leave ?
   3. Use the monitor event for something useful. Light the lamp when in the region
-  and turn it off when leaving. 
+  and turn it off when leaving.
