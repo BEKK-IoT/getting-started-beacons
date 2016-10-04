@@ -33,14 +33,11 @@ const AppConstants = {
       path: 'colormixer',
       name: 'Task5: Mixing colors'
     },{
-      path: 'ifttt',
-      name: 'Task6: If this than that'
-    },{
       path: 'telemetry',
-      name: 'Task7: Read sensor data'
+      name: 'Task6: Read sensor data'
     },{
-      path: 'arduino',
-      name: 'Task8: Maybe  arduino ???? TODO'
+      path: 'ifttt',
+      name: 'Task7: If this than that'
     }]
 };
 
