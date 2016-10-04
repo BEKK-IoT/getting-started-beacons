@@ -25,7 +25,7 @@ const AppConstants = {
       name: 'Task2: Beacon scanner'
     },{
       path: 'monitoring',
-      name: 'Task3: Monitoring a beacon region'
+      name: 'Task3: Monitoring a beacon region - Cordova only'
     },{
       path: 'hotandcold',
       name: 'Task4: Hot and cold'

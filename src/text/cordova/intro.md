@@ -15,7 +15,7 @@ git clone git@github.com:BEKK-IoT/beacon-cordova.git
 
 Change the directory into the www/ folder. Here is the HTML, CSS and Javascript code for the application
 ```sh
-cd www/
+cd beacon-cordova/www/
 ```
 
 ` `
