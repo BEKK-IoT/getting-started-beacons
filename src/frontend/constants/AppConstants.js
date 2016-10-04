@@ -38,6 +38,9 @@ const AppConstants = {
     },{
       path: 'ifttt',
       name: 'Task7: If this than that'
+    },{
+      path: 'game',
+      name: 'Bonus task'
     }]
 };
 
