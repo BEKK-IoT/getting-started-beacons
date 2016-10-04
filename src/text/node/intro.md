@@ -70,7 +70,7 @@ import { Beacon } from 'beacon';
 var uuid = 'e2c56db5dffb48d2b060d0f5a71096e0';
 var major = 0; // 0 - 65535
 var minor = 0; // 0 - 65535
-var measuredPower = -59; // -128 - 127 (measured RSSI at 1 meter)
+var measuredPower = -59; //  (measured RSSI at 1 meter)
 
 Beacon.startAdvertising(uuid, major, minor, measuredPower);
 ```
@@ -106,13 +106,17 @@ Beacon.startScanning([uuid], [major], [minor]);
 Examples
 
 ```javascript
-Beacon.startScanning(); // scan for any beacons
+// scan for any beacons
+Beacon.startScanning();
 
-Beacon.startScanning(uuid); // scan for beacons with a particular uuid
+// scan for beacons with a particular uuid
+Beacon.startScanning(uuid);
 
-Beacon.startScanning(uuid, major); // scan for beacons with a particular uuid and major
+// scan for beacons with a particular uuid and major
+Beacon.startScanning(uuid, major);
 
-Beacon.startScanning(uuid, major, minor); // scan for beacons with a particular uuid. major, and minor
+// scan for beacons with a particular uuid. major, and minor
+Beacon.startScanning(uuid, major, minor);  
 ```
 
 ` `
