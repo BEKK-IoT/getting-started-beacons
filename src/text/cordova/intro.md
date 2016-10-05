@@ -228,5 +228,5 @@ Register beacon with firebase:
 // Listen for your teams greet event and log the msg
 fb.foundBeacon( {
   minor : 1234,
-  proximity : near
+  proximity : "near"
 });
