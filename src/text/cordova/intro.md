@@ -12,6 +12,7 @@ Clone and build the start template project. This project contains the code for a
 git clone https://github.com/BEKK-IoT/beacon-cordova.git
 cd beacon-cordova/www/
 npm install
+sudo npm install -g gulp
 gulp build
 ```
 
