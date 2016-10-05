@@ -9,7 +9,7 @@ This tutorial shows how to create and build native mobile apps in Javascript, HT
 Clone and build the start template project. This project contains the code for a simple starting template. It contains the necessary setup for creating native iBeacon apps in Android and IOS.
 
 ```sh
-git clone git@github.com:BEKK-IoT/beacon-cordova.git
+git clone https://github.com/BEKK-IoT/beacon-cordova.git
 cd beacon-cordova/www/
 npm install
 gulp build
