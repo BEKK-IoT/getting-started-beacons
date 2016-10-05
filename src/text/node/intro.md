@@ -26,7 +26,7 @@ npm run app
 ` `
 
 ```js
-import { Beacon } from 'beacon';
+import { beacon } from 'beacon';
 ```
 
 ` `
@@ -43,7 +43,7 @@ var major = 0; // 0 - 65535
 var minor = 0; // 0 - 65535
 var measuredPower = -59; //  (measured RSSI at 1 meter)
 
-Beacon.startAdvertising(uuid, major, minor, measuredPower);
+beacon.startAdvertising(uuid, major, minor, measuredPower);
 ```
 
 ` `
@@ -55,7 +55,7 @@ Beacon.startAdvertising(uuid, major, minor, measuredPower);
 Stop your iBeacon
 
 ```js
-Beacon.stopAdvertising();
+beacon.stopAdvertising();
 ```
 
 ` `
@@ -69,7 +69,7 @@ var uuid = 'e2c56db5dffb48d2b060d0f5a71096e0';
 var major = 0; // 0 - 65535
 var minor = 0; // 0 - 65535
 
-Beacon.startScanning([uuid], [major], [minor]);
+beacon.startScanning([uuid], [major], [minor]);
 ```
 
 ` `
@@ -78,16 +78,16 @@ Examples
 
 ```js
 // scan for any beacons
-Beacon.startScanning();
+beacon.startScanning();
 
 // scan for beacons with a particular uuid
-Beacon.startScanning(uuid);
+beacon.startScanning(uuid);
 
 // scan for beacons with a particular uuid and major
-Beacon.startScanning(uuid, major);
+beacon.startScanning(uuid, major);
 
 // scan for beacons with a particular uuid. major, and minor
-Beacon.startScanning(uuid, major, minor);  
+beacon.startScanning(uuid, major, minor);  
 ```
 
 ` `
@@ -97,7 +97,7 @@ Beacon.startScanning(uuid, major, minor);
 ` `
 
 ```js
-Beacon.stopScanning();
+beacon.stopScanning();
 ```
 
 ` `
@@ -111,7 +111,7 @@ Beacon.stopScanning();
 ` `
 
 ```js
-Beacon.on('discover', function(beacon) {
+beacon.on('discover', function(beacon) {
     /* beacon contains the following data
     uuid          :  advertised uuid,
     major         :  advertised major
@@ -132,7 +132,7 @@ Beacon.on('discover', function(beacon) {
 ` `
 
 ```js
-Bleacon.on('telemetrydata', function(telemetrydata) {
+bleacon.on('telemetrydata', function(telemetrydata) {
 
 
   /*
@@ -176,7 +176,7 @@ In the following code example we use Firebase to send and receive events.
 
 ``` js
 // Import the Firebase library
-import { firebase } from 'devices-core';
+import { firebase } from 'devices-core-firebase';
 
 // Register your team name on firebase
 const fb = new firebase('team-unicorns');
