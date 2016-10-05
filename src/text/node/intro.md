@@ -13,8 +13,8 @@ We have included support for reading sensor data by incorporating [estimote spec
 ## Setup
 
 ```sh
-git clone https://github.com/BEKK-IoT/Beacon.git
-cd Beacon
+git clone https://github.com/BEKK-IoT/beacon-node.git
+cd beacon-node
 npm install
 npm run app
 ```
