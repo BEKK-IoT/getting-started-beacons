@@ -51,14 +51,12 @@ Just run:
 firebase serve
 ```
 #
-You will see two gauges! They are not working at the moment because you have not attached any data to them.
-But it's not the purpose for you to use them either, because they are just there for show.
-So DELETE the code for the gauge.
-
+You will see a button that is hooked up with the particle system, if you have followed what Vegard has said.
+If you open the inspect console in the browser, you will see that when you hit the button, something is console logged
 
 ## Host in the cloud
 #
-Just run:
+Just run, and a command to open the url will return:
 
 ```sh
 firebase deploy
