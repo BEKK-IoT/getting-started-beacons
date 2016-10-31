@@ -13,10 +13,6 @@ module.exports = React.createClass({
                 <div>
                     <Article article={intro} />
                 </div>
-                <div>
-                    <h2>Tasks</h2>
-                    <Tasks tasks={gadgetTasks} />
-                </div>
             </div>
         )
     }
