@@ -35,6 +35,13 @@ firebase init
 * Follow instructions on creating a project through their google console!
 #
 
+## Configure firebase
+#
+Go to your home button in the firebase console and hit the red button to get the configuration object, as in the picture
+Copy paste that code into the example template where you already have a config object
+#
+
+![Picture](http://i.imgur.com/OW4oYND.png?1)
 
 ## Host locally
 #
@@ -44,7 +51,9 @@ Just run:
 firebase serve
 ```
 #
-You will see two gauges!
+You will see two gauges! They are not working at the moment because you have not attached any data to them.
+But it's not the purpose for you to use them either, because they are just there for show.
+So DELETE the code for the gauge.
 
 
 ## Host in the cloud
