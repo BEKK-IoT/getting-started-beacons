@@ -26,11 +26,6 @@ module.exports = React.createClass({
                     {gadgets.map(gadget =>
                         <ul key={gadget}><Link to={'device/' + gadget}>{GADGETS[gadget].name}</Link></ul>
                     )}
-                    <ul><Link to={'keys/'}>Mac keybindings</Link></ul>
-                </div>
-                <div>
-                    <h1>Tasks</h1>
-                    <Tasks tasks={GENERAL_TASKS} />
                 </div>
             </div>
         )
