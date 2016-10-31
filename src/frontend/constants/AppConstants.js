@@ -3,14 +3,14 @@ const AppConstants = {
     GADGETS: {
     	node : {
         setup: true,
-    		name: 'Node - Computer',
+    		name: 'Firebase',
     		url: 'https://github.com/BEKK-IoT/arduino-uno',
     		git: 'https://github.com/BEKK-IoT/arduino-uno.git',
     		tasks: []
     	},
     	cordova : {
         setup: true,
-    		name: 'Cordova - Mobile',
+    		name: 'Particle',
         url: 'https://github.com/BEKK-IoT/beacon-cordova',
     		git: 'https://github.com/BEKK-IoT/beacon-cordova.git',
     		tasks: []
