@@ -25,8 +25,8 @@
     "flux": "^2.1.1",
     "object-assign": "^4.0.1",
     "q": "^1.4.1",
-    "react": "^0.13.3",
-    "react-router": "^1.0.0-rc1",
+    "react": "0.13.3",
+    "react-router": "1.0.0-rc1",
     "remarkable": "^1.6.0",
     "superagent": "^1.4.0",
     "vinyl-source-stream": "^1.1.0"
