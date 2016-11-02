@@ -8,7 +8,7 @@ Follow these steps to get started quickly
 ## Setup
 ` `
 ```sh
-npm install -g firebase
+npm install -g firebase-cli
 firebase login
 ```
 ` `
