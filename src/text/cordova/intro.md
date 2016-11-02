@@ -41,7 +41,9 @@ npm install
 
 
 Open the `main.js` file and update the following variables with your [device info](https://build.particle.io/)
-You will find deviceId under devices link on the left hand side
+#
+You will find deviceId under devices link on the left hand side.
+#
 And auth token is under settings link on the left hand side:
 
 ```
